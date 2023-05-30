@@ -50,11 +50,6 @@
         integer, intent(in) :: num_profile_columns
         integer, intent(out) :: ierr
 
-        interface
-           include 'extra_history_cols.inc'
-           include 'extra_profile_cols.inc'
-        end interface
-
         integer :: modini
 
         ierr = 0

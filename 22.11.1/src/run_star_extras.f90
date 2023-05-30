@@ -371,7 +371,6 @@
         call star_ptr(id, s, ierr)
         if (ierr /= 0) return
         extras_finish_step = keep_going
-        call store_extra_info(s)
 
         ! to save a profile,
            ! s% need_to_save_profiles_now = .true.
